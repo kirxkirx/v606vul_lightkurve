@@ -8,6 +8,9 @@ created to address the referee's comments on the paper
 
 * Analysis using a 3x3 square aperture, as described in the paper: [v606_vul_lk_square_aperture.ipynb](v606_vul_lk_square_aperture.ipynb)
 
+* An alternative analysis using a circular source aperture and a source-centered ring aperture for background estimation (not
+  used in the paper and presented here as an additional cross-check): [v606_vul_lk_circular_aperture.ipynb](v606_vul_lk_circular_aperture.ipynb)
+
 * An illustration of how easy it is to overcorrect (and compeltely distort) a lightcurve: [v606_Vul__lk_RegressionCorrector__DO_NOT_DO_IT.ipynb](v606_Vul__lk_RegressionCorrector__DO_NOT_DO_IT.ipynb)
 
 
