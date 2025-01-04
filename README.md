@@ -8,6 +8,6 @@ created to address the referee's comments on the paper
 
 * Analysis using a 3x3 square aperture, as described in the paper: [v606_vul_lk_square_aperture.ipynb](v606_vul_lk_square_aperture.ipynb)
 
-* TBA
+* An illustration of how easy it is to overcorrect (and compeltely distort) a lightcurve: [v606_Vul__lk_RegressionCorrector__DO_NOT_DO_IT.ipynb](v606_Vul__lk_RegressionCorrector__DO_NOT_DO_IT.ipynb)
 
 
