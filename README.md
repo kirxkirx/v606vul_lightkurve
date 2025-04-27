@@ -8,7 +8,7 @@ The repository includes four Jupyter notebooks:
 * Analysis using a 3x3 square aperture, as described in the paper: [v606_vul_lk_square_aperture.ipynb](v606_vul_lk_square_aperture.ipynb)
 * An alternative analysis using a circular source aperture and a source-centered ring aperture for background estimation (presented as an additional cross-check, not used in the paper): [v606_vul_lk_circular_aperture.ipynb](v606_vul_lk_circular_aperture.ipynb)
 * A demonstration of how lightcurve overcorrection can lead to distortion: [v606_Vul__lk_RegressionCorrector__DO_NOT_DO_IT.ipynb](v606_Vul__lk_RegressionCorrector__DO_NOT_DO_IT.ipynb)
-* *(NEW)* Single-pixel lightcurves confirming that the 0.128-day period is present only in the pixels covered by the nova image and not in the surrounding pixels: [v606_vul_lk_individual_pixel_lightcurves.ipynb](v606_vul_lk_individual_pixel_lightcurves.ipynb)
+* **(NEW)** Single-pixel lightcurves confirming that the 0.128-day period is present only in the pixels covered by the nova image and not in the surrounding pixels: [v606_vul_lk_individual_pixel_lightcurves.ipynb](v606_vul_lk_individual_pixel_lightcurves.ipynb)
 
 The periodicity analysis in [the paper](https://arxiv.org/abs/2311.04903) uses manual selection of lightcurve regions where periodic variability is clearly visible, followed by piecewise linear detrending, as shown by the green lines in the plot below.
 
