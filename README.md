@@ -4,12 +4,13 @@ It was created in response to referee comments on the paper "TESS photometry of 
 ([arXiv e-print](https://arxiv.org/abs/2311.04903)) submitted to ApJ. The repository contains Jupyter notebooks, lightcurve data files, and plots supporting the paper's main conclusion: 
 the lightcurve of V606 Vul displays a 0.1277-day periodic modulation that is likely of astrophysical origin, as it is neither associated with background fluctuations nor present in nearby sources.
 
-The repository includes five Jupyter notebooks:
+The repository includes six Jupyter notebooks:
 * Analysis using a 3x3 square aperture, as described in the paper: [v606_vul_lk_square_aperture.ipynb](v606_vul_lk_square_aperture.ipynb)
 * An alternative analysis using a circular source aperture and a source-centered ring aperture for background estimation (presented as an additional cross-check, not used in the paper): [v606_vul_lk_circular_aperture.ipynb](v606_vul_lk_circular_aperture.ipynb)
 * A demonstration of how lightcurve overcorrection can lead to distortion: [v606_Vul__lk_RegressionCorrector__DO_NOT_DO_IT.ipynb](v606_Vul__lk_RegressionCorrector__DO_NOT_DO_IT.ipynb)
 * **(NEW)** Single-pixel lightcurves confirming that the 0.128-day period is present only in the pixels covered by the nova image and not in the surrounding pixels: [v606_vul_lk_individual_pixel_lightcurves.ipynb](v606_vul_lk_individual_pixel_lightcurves.ipynb)
 * **(NEW)** Lightcurve simulations illustraing the need for detrending before a period search: [why_detrend_before_period_search.ipynb](why_detrend_before_period_search.ipynb)
+* **(NEW)** Period analysis of the ZTF r-band ligthcurve of V606 Vul: [v606_vul_period_search_in_ztf.ipynb](v606_vul_period_search_in_ztf.ipynb)
 
 The periodicity analysis in [the paper](https://arxiv.org/abs/2311.04903) uses manual selection of lightcurve regions where periodic variability is clearly visible, followed by piecewise linear detrending, as shown by the green lines in the plot below.
 
