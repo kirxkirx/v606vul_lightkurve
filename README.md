@@ -10,7 +10,7 @@ The repository includes six Jupyter notebooks:
 * A demonstration of how lightcurve overcorrection can lead to distortion: [v606_Vul__lk_RegressionCorrector__DO_NOT_DO_IT.ipynb](v606_Vul__lk_RegressionCorrector__DO_NOT_DO_IT.ipynb)
 * **(NEW)** Single-pixel lightcurves confirming that the 0.128-day period is present only in the pixels covered by the nova image and not in the surrounding pixels: [v606_vul_lk_individual_pixel_lightcurves.ipynb](v606_vul_lk_individual_pixel_lightcurves.ipynb)
 * **(NEW)** Lightcurve simulations illustraing the need for detrending before a period search: [why_detrend_before_period_search.ipynb](why_detrend_before_period_search.ipynb)
-* **(NEW)** Period analysis of the ZTF r-band ligthcurve of V606 Vul: [v606_vul_period_search_in_ztf.ipynb](v606_vul_period_search_in_ztf.ipynb)
+* **(NEW)** Period search in ZTF ligthcurve of V606 Vul: [v606_vul_period_search_in_ztf.ipynb](v606_vul_period_search_in_ztf.ipynb)
 
 The periodicity analysis in [the paper](https://arxiv.org/abs/2311.04903) uses manual selection of lightcurve regions where periodic variability is clearly visible, followed by piecewise linear detrending, as shown by the green lines in the plot below.
 
